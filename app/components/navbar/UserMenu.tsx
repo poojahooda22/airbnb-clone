@@ -40,7 +40,10 @@ const UserMenu = () => {
                 bg-white overflow-hidden right-0 top-12 text-sm">
                     <div className="flex- flex-col cursor-pointer">
                         <>
-                            <MenuItem />
+                            <MenuItem
+                                onClick={() => {}}
+                                label="Host your home"
+                            />
                         </>
                     </div>
                 </div>
