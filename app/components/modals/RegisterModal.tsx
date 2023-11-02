@@ -52,8 +52,24 @@ const RegisterModal = () => {
                 subtitle='Sign up to get started'
             />
             <Input
+                id='name'
+                label='Name'
+                disabled={isLoading}
+                required
+                register={register}
+                errors={errors}
+            />
+            <Input
                 id='email'
                 label='Email'
+                disabled={isLoading}
+                required
+                register={register}
+                errors={errors}
+            />
+            <Input
+                id='password'
+                label='Passwword'
                 disabled={isLoading}
                 required
                 register={register}
